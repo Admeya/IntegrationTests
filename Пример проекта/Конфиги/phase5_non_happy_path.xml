@@ -1,0 +1,18 @@
+<testData>
+
+    <application>
+        <path>Тестовые данные (заявка)</path>
+        <test>HappyPath</test>
+    </application>
+
+    <application>
+        <path>Тестовые данные (заявка)</path>
+        <test>HappyPath_1</test>
+    </application>
+
+    <application>
+        <path>Тестовые данные (заявка)</path>
+        <test>HappyPath_2</test>
+    </application>
+
+</testData>

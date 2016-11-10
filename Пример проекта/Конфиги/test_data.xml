@@ -1,0 +1,4 @@
+<testData>
+	<suite>/testsuits/phase5_non_happy_path.xml</suite>
+	<!--<suite>/testsuits/phase6_phase3.xml</suite>-->
+</testData>
