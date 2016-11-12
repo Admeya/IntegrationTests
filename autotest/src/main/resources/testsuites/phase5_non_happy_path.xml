@@ -1,0 +1,16 @@
+<testData>
+    <application>
+        <path>apps/app.xml</path>
+        <test>/tests/HappyPath</test>
+    </application>
+
+    <application>
+        <path>apps/app.xml</path>
+        <test>/tests/HappyPath2</test>
+    </application>
+
+    <application>
+        <path>apps/app.xml</path>
+        <test>/tests/HappyPath3</test>
+    </application>
+</testData>

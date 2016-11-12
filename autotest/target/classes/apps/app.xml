@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="TestAll">
+    <test name="Phase 5">
+        <classes>
+            <class name="providers.TestsFactory"/>
+        </classes>
+    </test>
+</suite>
