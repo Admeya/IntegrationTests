@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70" started-at="2016-11-13T14:55:19Z" finished-at="2016-11-13T14:55:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70" started-at="2016-11-13T14:55:19Z" finished-at="2016-11-13T14:55:19Z">
+      <class name="tests.HappyPath">
+        <test-method status="PASS" signature="meth1()[pri:0, instance:tests.HappyPath@475530b9]" name="meth1" duration-ms="9" started-at="2016-11-13T17:55:19Z" description="method1 HappyPath1" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+        <test-method status="PASS" signature="meth2()[pri:0, instance:tests.HappyPath@475530b9]" name="meth2" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method2 HappyPath1" depends-on-methods="tests.HappyPath.meth1" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth2 -->
+        <test-method status="PASS" signature="meth3()[pri:0, instance:tests.HappyPath@475530b9]" name="meth3" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method3 HappyPath1" depends-on-methods="tests.HappyPath.meth2" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth3 -->
+        <test-method status="PASS" signature="meth4()[pri:0, instance:tests.HappyPath@475530b9]" name="meth4" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method4 HappyPath1" depends-on-methods="tests.HappyPath.meth3" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth4 -->
+        <test-method status="PASS" signature="meth5()[pri:0, instance:tests.HappyPath@475530b9]" name="meth5" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method5 HappyPath1" depends-on-methods="tests.HappyPath.meth4" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth5 -->
+      </class> <!-- tests.HappyPath -->
+      <class name="tests.HappyPath2">
+        <test-method status="PASS" signature="meth1()[pri:0, instance:tests.HappyPath2@14acaea5]" name="meth1" duration-ms="2" started-at="2016-11-13T17:55:19Z" description="method1 HappyPath2" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+        <test-method status="PASS" signature="Init()[pri:0, instance:tests.HappyPath2@14acaea5]" name="Init" is-config="true" duration-ms="0" started-at="2016-11-13T17:55:19Z" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="PASS" signature="meth2()[pri:0, instance:tests.HappyPath2@14acaea5]" name="meth2" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method2 HappyPath2" depends-on-methods="tests.HappyPath2.meth1" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth2 -->
+        <test-method status="PASS" signature="meth3()[pri:0, instance:tests.HappyPath2@14acaea5]" name="meth3" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method3 HappyPath2" depends-on-methods="tests.HappyPath2.meth2" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth3 -->
+        <test-method status="PASS" signature="meth4()[pri:0, instance:tests.HappyPath2@14acaea5]" name="meth4" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method4 HappyPath2" depends-on-methods="tests.HappyPath2.meth3" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth4 -->
+        <test-method status="PASS" signature="meth5()[pri:0, instance:tests.HappyPath2@14acaea5]" name="meth5" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method5 HappyPath2" depends-on-methods="tests.HappyPath2.meth4" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth5 -->
+      </class> <!-- tests.HappyPath2 -->
+      <class name="tests.HappyPath3">
+        <test-method status="PASS" signature="Init()[pri:0, instance:tests.HappyPath3@29774679]" name="Init" is-config="true" duration-ms="4" started-at="2016-11-13T17:55:19Z" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="PASS" signature="meth1()[pri:0, instance:tests.HappyPath3@29774679]" name="meth1" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method1 HappyPath3" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+        <test-method status="PASS" signature="meth2()[pri:0, instance:tests.HappyPath3@29774679]" name="meth2" duration-ms="0" started-at="2016-11-13T17:55:19Z" description="method2 HappyPath3" depends-on-methods="tests.HappyPath3.meth1" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth2 -->
+        <test-method status="PASS" signature="meth3()[pri:0, instance:tests.HappyPath3@29774679]" name="meth3" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method3 HappyPath3" depends-on-methods="tests.HappyPath3.meth2" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth3 -->
+        <test-method status="PASS" signature="meth4()[pri:0, instance:tests.HappyPath3@29774679]" name="meth4" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method4 HappyPath3" depends-on-methods="tests.HappyPath3.meth3" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth4 -->
+        <test-method status="PASS" signature="meth5()[pri:0, instance:tests.HappyPath3@29774679]" name="meth5" duration-ms="1" started-at="2016-11-13T17:55:19Z" description="method5 HappyPath3" depends-on-methods="tests.HappyPath3.meth4" finished-at="2016-11-13T17:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth5 -->
+      </class> <!-- tests.HappyPath3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
